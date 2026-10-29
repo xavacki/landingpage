@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xavacki.com/sitemap.xml
