@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Privacy policy — xavacki games</title><meta name="description" content="How xavacki handles information on this website and in Gravity Throttle. Effective 29 October 2026.">
+<title>Privacy policy — xavacki games</title><meta name="description" content="How xavacki handles information on this website and in Gravity Throttle. Effective 2 November 2026.">
 <meta name="theme-color" content="#111a21"><link rel="canonical" href="https://xavacki.com/privacy">
-<meta property="og:title" content="Privacy policy — xavacki games"><meta property="og:description" content="How xavacki handles information on this website and in Gravity Throttle. Effective 29 October 2026.">
+<meta property="og:title" content="Privacy policy — xavacki games"><meta property="og:description" content="How xavacki handles information on this website and in Gravity Throttle. Effective 2 November 2026.">
 <meta property="og:type" content="website"><meta property="og:url" content="https://xavacki.com/privacy"><meta property="og:image" content="https://xavacki.com/assets/gravity-throttle-home.webp">
 <link rel="icon" href="assets/gravity-throttle-icon.png" type="image/png"><link rel="stylesheet" href="assets/site.css">
 </head><body class="legal-page"><a class="skip" href="#main">Skip to content</a>
@@ -18,7 +18,7 @@
 <div class="shell">
 <p class="eyebrow">xavacki · Player information</p>
 <h1>Privacy policy</h1>
-<p>How xavacki handles information on this website and in Gravity Throttle. Effective 29 October 2026.</p>
+<p>How xavacki handles information on this website and in Gravity Throttle. Effective 2 November 2026.</p>
 </div>
 </div>
 <div class="shell legal-layout">
@@ -27,7 +27,7 @@
 <p>On this page</p>
 <nav aria-label="Page contents"><a href="#operator">1. Who is responsible</a><a href="#website">2. Visiting the website</a><a href="#game-data">3. Information handled by the game</a><a href="#analytics">4. Optional analytics and crash diagnostics</a><a href="#purposes">5. Purposes and legal bases</a><a href="#providers">6. Providers and international processing</a><a href="#retention">7. How long information is kept</a><a href="#deletion">8. Account deletion and your choices</a><a href="#rights">9. Your privacy rights</a><a href="#audience">10. Audience, security and updates</a>
 </nav>
-<p style="margin-top:28px">Updated 29 October 2026</p>
+<p style="margin-top:28px">Updated 2 November 2026</p>
 </div>
 </aside>
 <article class="legal-copy">
@@ -51,15 +51,17 @@
 <h3>Google sign-in and cloud saves</h3>
 <p>Google sign-in is optional. Google and Firebase Authentication process your Google identifier, email and profile information provided through sign-in, authentication tokens, IP addresses and technical security information. Firebase assigns a game account identifier. We never receive your Google password.</p>
 <p>Our cloud service associates that identifier with coins, upgrades, reward claims, paid level access, race records, revisions, operation receipts and timestamps. It synchronizes progress across devices. The account dialog displays your email. Guest saves are separate from cloud saves; signing out does not delete your cloud account.</p>
-<h3>Purchases, refunds and fraud prevention</h3>
-<p>Google Play handles checkout and payment credentials. We do not receive your full card number or bank password. Our verifier receives the product ID and Play purchase token and checks the purchase with Google. The ledger stores a token hash, account UID, product, coin delivery amount, order ID when available, test status and timestamps. A hashed account identifier is provided to Play to bind a purchase to the correct game account. Pending tokens can remain in the device’s delivery queue.</p>
-<p>Google Play notifications and purchase checks report cancellations, refunds and chargebacks. We update purchase status, coin balances, level entitlement and any coin shortfall from already-spent refunded packs. These are automated game-account adjustments; contact us if you believe one is wrong. See our <a href="termsofservice.html#purchases">purchase terms</a>.</p>
+<h3>Payment availability and purchase interest</h3>
+<p>In builds that display <strong>“Payments are coming soon”</strong>, in-app payments are unavailable and the Google Play Billing SDK is not included. Selecting a level-unlock offer or coin pack does not start checkout, charge you or deliver a purchased product. With your analytics consent, the app records the selected product identifier, the coin-pack amount where applicable, and that payments are coming soon. These are shop-interaction analytics, not completed purchases. Without analytics consent, those interactions are not collected by Firebase Analytics.</p>
+<h3>Earlier purchases, refunds and fraud prevention</h3>
+<p>For purchases made through earlier payment-enabled builds, Google Play handled checkout and payment credentials. We do not receive your full card number or bank password. Our verifier may still receive a product ID and Play purchase token to complete pending delivery or handle an earlier purchase. The ledger stores a token hash, account UID, product, coin delivery amount, order ID when available, test status and timestamps. Payment-enabled builds provided a hashed account identifier to Play to bind a purchase to the correct game account. Previously queued tokens can remain on the device until delivery is resolved. Disabling new payments does not remove existing purchase records or eligible entitlements.</p>
+<p>For earlier purchases, Google Play notifications and purchase checks may report cancellations, refunds and chargebacks. We may update purchase status, coin balances, level entitlement and any coin shortfall from already-spent refunded packs. These are automated game-account adjustments; contact us if you believe one is wrong. See our <a href="termsofservice.html#purchases">purchase terms</a>.</p>
 </section>
 <section id="analytics">
 <h2>4. Optional analytics and crash diagnostics</h2>
 <h3>Optional gameplay analytics</h3>
-<p>In builds with the Analytics &amp; privacy control, Firebase Analytics collection is <strong>off until you choose Allow analytics</strong>. You can choose No thanks and still play, use cloud saves and make eligible purchases. Change or withdraw your choice at <strong>Settings → Analytics &amp; privacy → No thanks</strong>. The choice is stored on your device; a new device may ask again.</p>
-<p>If enabled, Analytics processes app and installation identifiers, app/device and operating-system information, sessions, screens viewed, level attempts and outcomes, race duration, bike class, coin rewards/spending and shop interactions. Firebase may derive approximate location and other technical information under its SDK configuration. Our custom events do not include your name, email or Firebase account UID. The app does not request precise GPS location. Advertising ID collection and advertising storage/personalization consent are disabled in these builds.</p>
+<p>In builds with the Analytics &amp; privacy control, Firebase Analytics collection is <strong>off until you choose Allow analytics</strong>. You can choose No thanks and still play, use cloud saves and use available game features. Change or withdraw your choice at <strong>Settings → Analytics &amp; privacy → No thanks</strong>. The choice is stored on your device; a new device may ask again.</p>
+<p>If enabled, Analytics processes app and installation identifiers, app/device and operating-system information, sessions, screens viewed, level attempts and outcomes, race duration, bike class, coin rewards/spending and shop interactions, including the purchase-interest events described above. Firebase may derive approximate location and other technical information under its SDK configuration. Our custom events do not include your name, email or Firebase account UID. The app does not request precise GPS location. Advertising ID collection and advertising storage/personalization consent are disabled in these builds.</p>
 <p><strong>Earlier builds:</strong> versions without this setting start Analytics automatically and have no in-app analytics opt-out. The website cannot change an installed version. Update to a build containing the control; contact us with privacy requests concerning earlier collection. Reading this policy or accepting the terms does not provide analytics consent.</p>
 <p>Withdrawing consent stops future Analytics collection; it does not automatically erase all historical reports. Contact us to request deletion of data that can be identified, providing only the information reasonably needed to locate it. We do not routinely link gameplay Analytics events to your signed-in account.</p>
 <h3>Crash diagnostics are separate</h3>
@@ -99,11 +101,11 @@
 </tbody>
 </table>
 </div>
-<p>Sign-in and purchases need their related account and transaction data; without it those features cannot operate. You can browse the website and play as a guest without signing in. Optional analytics is not a condition of play or purchase in consent-enabled builds.</p>
+<p>Sign-in and cloud saves need their related account data; without it those features cannot operate. Handling an earlier purchase may require its related transaction data. You can browse the website and play as a guest without signing in. Optional analytics is not a condition of play or cloud saves in consent-enabled builds.</p>
 </section>
 <section id="providers">
 <h2>6. Providers and international processing</h2>
-<p>We use Google Sign-In, Google Play Billing, Firebase Authentication, Cloud Firestore, Cloud Functions, Google Analytics for Firebase and Firebase Crashlytics. Google’s roles depend on the service: it processes Firebase service data under the applicable processing terms, and separately handles Google accounts, Analytics and Play transactions under their applicable terms. Our support mailbox is provided through Gmail. Website hosting is provided by GitHub Pages.</p>
+<p>We use Google Sign-In, Firebase Authentication, Cloud Firestore, Cloud Functions, Google Analytics for Firebase and Firebase Crashlytics. Earlier payment-enabled builds also used Google Play Billing; our services may still handle records and verification for those earlier purchases. Google’s roles depend on the service: it processes Firebase service data under the applicable processing terms, and separately handles Google accounts, Analytics and Play transactions under their applicable terms. Our support mailbox is provided through Gmail. Website hosting is provided by GitHub Pages.</p>
 <p>The game wallet database and purchase functions are in Belgium (<code>europe-west1</code>). This does not keep every Google or website operation inside the EEA. Providers may process information in other countries, including the United States.</p>
 <p>Where applicable, provider arrangements use recognised transfer safeguards, such as European Commission standard contractual clauses and, for eligible certified US recipients and transfers, the EU–US Data Privacy Framework. Details and applicable terms are available in <a href="https://firebase.google.com/support/privacy">Firebase’s privacy and transfer information</a>, the <a href="https://firebase.google.com/terms/data-processing-terms">Firebase Data Processing and Security Terms</a>, <a href="https://cloud.google.com/terms/data-processing-addendum">Google Cloud’s processing addendum</a>, <a href="https://policies.google.com/privacy">Google’s privacy policy</a> and <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub’s privacy statement</a>.</p>
 <p>We may disclose limited information when legally required or reasonably necessary to defend legal claims or prevent abuse. We do not sell personal data. The current game has no advertising network.</p>
@@ -171,7 +173,7 @@
 <section id="audience">
 <h2>10. Audience, security and updates</h2>
 <p>Gravity Throttle is intended for players aged 13 and over and is not directed to children under 13. This does not override a country’s rules on minors’ consent or purchases. If you cannot independently give valid Analytics consent, choose No thanks unless an appropriate parent/guardian arrangement is in place. We do not provide an age-verification or parental-consent service merely through this notice. Contact us if you believe a child’s data has been collected improperly.</p>
-<p>Cloud requests use HTTPS, signed-in operations require authentication, purchases are verified on the backend, and direct client database writes are restricted. No system is completely secure. We update this notice when practices change, state the effective date, and provide further notice or obtain consent where required.</p>
+<p>Cloud requests use HTTPS, signed-in operations require authentication, any verification of earlier purchases is handled on the backend, and direct client database writes are restricted. No system is completely secure. We update this notice when practices change, state the effective date, and provide further notice or obtain consent where required.</p>
 </section>
 </article>
 </div>
